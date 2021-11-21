@@ -1,0 +1,11 @@
+server:
+  port: 9876
+github-api:
+  base-url: https://api.github.com
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+github-api:
+  base-url: http://localhost
